@@ -1,0 +1,43 @@
+/* Flexboxes for navbar  */
+#flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+
+
+}
+/* Styling the buttons of the navbar   */
+div #flex .links {
+    background-color: red;
+    border-radius: 0.6em;
+    border: 0.16em solid black;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: 1px 1px 1px black, inset 2px 1px 1px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 1em;
+    display: inline-block;
+    flex: 12.5em;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+    line-height: 1.5rem;
+    max-width: 12rem;
+}
+
+
+/* The back button for websites */
+.back-button {
+    font-size: 2rem;
+    text-decoration: none;
+    color: aqua;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    background-color: black;
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+}

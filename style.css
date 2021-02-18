@@ -1,0 +1,57 @@
+html {
+    font-size: 16px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: repeating-linear-gradient(rgba(42, 248, 166, 1), rgba(82, 250, 199, 1), rgba(167, 56, 214, 1), rgba(214, 56, 56, 1));
+    background-attachment: fixed;
+
+
+
+
+}
+
+
+#wrapper {
+
+    margin-right: auto;
+    max-width: 100%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: 0.1em solid black;
+    border-radius: 0.6em;
+    background-color: dimgray;
+
+
+
+}
+
+
+
+
+body {
+
+ 
+    max-height: 100%;
+    width: 100%;
+   
+    border-radius: 0.6em;
+    background-color: dimgray;
+    padding: 0em;
+    margin: 0;
+    
+    
+}
+
+div a img{
+
+width: 30%;
+    margin: 1rem;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+}
+
+h1{
+font-size: 1.8rem;
+
+}

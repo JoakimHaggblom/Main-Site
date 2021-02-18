@@ -1,0 +1,22 @@
+img {
+    height: 10em;
+    margin-bottom: 0.5em;
+    border: 0.2em solid black;
+}
+
+
+
+h2 {
+
+
+    display: block;
+    font-size: 1em;
+
+
+}
+
+
+#download {
+    height: 15%;
+    width: 15%
+}

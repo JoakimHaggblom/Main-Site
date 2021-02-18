@@ -1,0 +1,60 @@
+#flex1 {
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+position: relative;
+
+}
+
+
+
+
+#button_green {
+    border: 0.25em solid #38d723;
+}
+
+#button_red {
+    border: 0.25em solid red;
+}
+
+#button_yellow {
+    border: 0.25em solid yellow;
+}
+
+#button_blue {
+    border: 0.25em solid blue;
+}
+
+#button_orange {
+    border: 0.25em solid orange;
+}
+
+
+
+div #flex1 a {
+    color: #ffffff;
+     font-size: 1.5em;
+    padding: 1em;
+   display: inline-block;
+        flex: 12.5em;
+    text-shadow: 1px 1px 1px black;
+      text-align: center;
+     margin: 0 auto;
+     margin-left: auto;
+margin-right: 0.3em;
+    text-shadow: 2px 2px 2px black;
+    border-bottom-right-radius: 19rem;
+    border-top-right-radius: 19rem;
+    border-top-left-radius: 7rem;
+    border-bottom-left-radius: 7rem;
+        text-decoration: none;
+    background-color: black;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    box-shadow: 1px 1px 1px black, inset 2px 1px 1px rgba(255, 255, 0, 0), inset -2px -2px 3px rgba(0, 0, 0, 0);
+    line-height: 1.5rem;
+ justify-content: space-around;
+    max-width: 12rem;
+   
+    
+    
+}

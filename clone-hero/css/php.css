@@ -1,0 +1,12 @@
+html{
+background-image: repeating-linear-gradient(rgba(42, 248, 166, 1), rgba(82, 250, 199, 1), rgba(167, 56, 214, 1), rgba(214, 56, 56, 1));
+background-attachment: fixed;
+
+}
+
+
+#errormsg{
+font-size: 3rem;
+color: red;
+       
+}

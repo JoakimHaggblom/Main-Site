@@ -1,0 +1,61 @@
+html {
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: repeating-linear-gradient(rgba(42, 248, 166, 1), rgba(82, 250, 199, 1), rgba(167, 56, 214, 1), rgba(214, 56, 56, 1));
+    background-attachment: fixed;
+}
+
+
+
+
+#wrapper {
+    position: relative;
+    margin-right: auto;
+    max-width: 100%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: 0.1rem solid black;
+    border-radius: 0.6rem;
+    background-color: dimgray;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+
+
+}
+
+a:focus {
+    color: aqua;
+
+}
+
+.back-button {
+    font-size: 2rem;
+    text-decoration: none;
+    color: chocolate;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    background-color: black;
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    
+    
+  
+}
+
+footer {
+    display: block;
+}
+.content{
+
+
+
+
+}
