@@ -1,60 +1,106 @@
-#flex1 {
-    display: flex;
+/*#flex1{
+display: flex;
+ 
     flex-direction: row;
    flex-wrap: wrap;
 position: relative;
+   align-items: center;
+    justify-content: space-around;
 
-}
+}*/
 
-
-
-
-#button_green {
+#button_green  {
     border: 0.25em solid #38d723;
+    grid-area: button_green;
+    grid-column: auto;
+    grid-row: auto;
 }
 
 #button_red {
     border: 0.25em solid red;
+    grid-area: button_red;
+    grid-column: auto;
+    grid-row: auto;
 }
 
 #button_yellow {
     border: 0.25em solid yellow;
+    grid-area: buttom_yellow;
+    grid-column: auto;
+    grid-row: auto;
 }
 
 #button_blue {
     border: 0.25em solid blue;
+    grid-area: buttom_blue;
+    grid-column: auto;
+    grid-row: auto;
 }
 
 #button_orange {
     border: 0.25em solid orange;
+    grid-area: button_orange;
+    grid-column: auto;
+    grid-row: auto;
 }
 
 
 
-div #flex1 a {
+/*  FLEX buttons    */
+div .grid-container a{
     color: #ffffff;
-     font-size: 1.5em;
+    font-size: 1.5em;
     padding: 1em;
-   display: inline-block;
-        flex: 12.5em;
     text-shadow: 1px 1px 1px black;
-      text-align: center;
-     margin: 0 auto;
-     margin-left: auto;
-margin-right: 0.3em;
+    text-align: center;
+    margin-right: 0.3em;
     text-shadow: 2px 2px 2px black;
     border-bottom-right-radius: 19rem;
     border-top-right-radius: 19rem;
     border-top-left-radius: 7rem;
     border-bottom-left-radius: 7rem;
-        text-decoration: none;
+    text-decoration: none;
     background-color: black;
     background-image: linear-gradient(to top left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
     box-shadow: 1px 1px 1px black, inset 2px 1px 1px rgba(255, 255, 0, 0), inset -2px -2px 3px rgba(0, 0, 0, 0);
-    line-height: 1.5rem;
- justify-content: space-around;
-    max-width: 12rem;
-   
+
     
+
+   
+     
+}
+
+/*  Grid layout buttons */
+@media only screen and (max-width: 900px)
+
+
+{
+
+
+    .grid-container {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+    grid-template-rows: minmax(4em, 6em);
+    grid-auto-columns: minmax(4em, 6em);
+    grid-template-areas:
+        'button_green'
+        'button_red'
+        'button_yellow'
+        'button_blue'
+        'button_orange'
+        ;
+    grid-auto-flow: column;
     
 }
+
+}
+.grid-container {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+    grid-template-rows: minmax(4em, 6em);
+    grid-auto-columns: minmax(4em, 6em);
+  
+  
+    
