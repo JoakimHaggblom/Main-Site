@@ -2,10 +2,9 @@ html {
     font-size: 16px;
     background-image: repeating-linear-gradient(rgba(42, 248, 166, 1), rgba(82, 250, 199, 1), rgba(167, 56, 214, 1), rgba(214, 56, 56, 1));
     background-attachment: fixed;
-    
+    min-width: 28em;
+
 }
-
-
 
 
 #wrapper {
@@ -17,12 +16,10 @@ html {
     border: 0.1rem solid black;
     border-radius: 0.6rem;
     background-color: dimgray;
-      margin-left: 10%;
+    margin-left: 10%;
     margin-right: 10%;
-    
+
 }
-
-
 
 
 
@@ -47,17 +44,11 @@ a:focus {
     position: relative;
     right: 0rem;
     bottom: 0rem;
-   
+
 }
 
 footer {
     display: block;
-      margin-left: 10%;
+    margin-left: 10%;
     margin-right: 10%;
-}
-.content{
-
-
-
-
 }

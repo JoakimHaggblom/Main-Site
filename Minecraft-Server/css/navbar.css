@@ -1,16 +1,7 @@
-/* Flexboxes for navbar  */
-#flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+/*  FLEX buttons    */
+div .grid-container a {
 
 
-
-
-}
-/* Styling the buttons of the navbar   */
-div #flex .links {
     background-color: red;
     border-radius: 0.6em;
     border: 0.16em solid black;
@@ -19,18 +10,19 @@ div #flex .links {
     color: #ffffff;
     font-size: 1.5em;
     padding: 1em;
-    display: inline-block;
-    flex: 12.5em;
     text-align: center;
     text-shadow: 2px 2px 2px black;
     text-decoration: none;
     line-height: 1.5rem;
     max-width: 12rem;
+
+
 }
 
 
+
 /* The back button for websites */
-.back-button {
+#back-button {
     font-size: 2rem;
     text-decoration: none;
     color: aqua;
@@ -40,4 +32,42 @@ div #flex .links {
     position: absolute;
     right: 0rem;
     bottom: 0rem;
+}
+
+
+
+
+/*  Grid layout buttons */
+@media only screen and (max-width: 900px) {
+
+
+    .grid-container {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+        grid-template-rows: minmax(4em, 6em);
+        grid-auto-columns: minmax(4em, 6em);
+        grid-template-areas:
+            'button_green'
+            'button_red'
+            'button_yellow'
+            'button_blue'
+            'button_orange'
+        ;
+        grid-auto-flow: column;
+        
+
+
+    }
+
+}
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    grid-template-rows: minmax(2em, 6em);
+    grid-auto-columns: minmax(4em, 6em);
+    grid-auto-flow: column;
+    justify-content: space-around;
 }

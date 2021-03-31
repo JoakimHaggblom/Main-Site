@@ -9,7 +9,7 @@ position: relative;
 
 }*/
 
-#button_green  {
+#button_green {
     border: 0.25em solid #38d723;
     grid-area: button_green;
     grid-column: auto;
@@ -47,7 +47,7 @@ position: relative;
 
 
 /*  FLEX buttons    */
-div .grid-container a{
+div .grid-container a {
     color: #ffffff;
     font-size: 1.5em;
     padding: 1em;
@@ -64,43 +64,41 @@ div .grid-container a{
     background-image: linear-gradient(to top left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
     box-shadow: 1px 1px 1px black, inset 2px 1px 1px rgba(255, 255, 0, 0), inset -2px -2px 3px rgba(0, 0, 0, 0);
 
-    
 
-   
-     
+
+
+
 }
 
 /*  Grid layout buttons */
-@media only screen and (max-width: 900px)
-
-
-{
+@media only screen and (max-width: 900px) {
 
 
     .grid-container {
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
-    grid-template-rows: minmax(4em, 6em);
-    grid-auto-columns: minmax(4em, 6em);
-    grid-template-areas:
-        'button_green'
-        'button_red'
-        'button_yellow'
-        'button_blue'
-        'button_orange'
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+        grid-template-rows: minmax(4em, 6em);
+        grid-auto-columns: minmax(4em, 6em);
+        grid-template-areas:
+            'button_green'
+            'button_red'
+            'button_yellow'
+            'button_blue'
+            'button_orange'
         ;
-    grid-auto-flow: column;
-    
-}
+      
+
+
+    }
 
 }
+
 .grid-container {
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
     grid-template-rows: minmax(4em, 6em);
     grid-auto-columns: minmax(4em, 6em);
-  
-  
-    
+    grid-auto-flow: column;
+}
