@@ -6,7 +6,7 @@ html {
 
 }
 
-
+/* Wrapps the inner content */
 #wrapper {
     position: relative;
     margin-right: auto;
